@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.name_them_all.StartActivity"
+    tools:showIn="@layout/activity_start">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Welcome!"
+        android:layout_margin="8sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:fontFamily="sans-serif"
+        android:padding="8sp"
+        android:text="How to Play:
+1.This game needs two players.
+2.A letter will be given. The players must enter a fruit, a place, an animal and a thing starting with the given letter.
+3.The player gets 10 points per correct answer.
+4.Atleast two answers must be correct for submitting. You can forfiet anytime and lose.
+5.The first player to reach 100 points wins"
+
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
